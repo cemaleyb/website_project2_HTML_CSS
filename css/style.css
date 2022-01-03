@@ -1,0 +1,510 @@
+/*--------
+# GENERAL SETTİNGS
+------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+--font-poppins:"Poppins",'sans-serif';
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Poppins', sans-serif;
+    color: #e74c3c;
+}
+p {
+    font-size: 13px;
+}
+h2 {font-size: 32px;}
+h3 {font-size: 22px;}
+h4 {font-size: 16px;}
+h5 {font-size: 14px;}
+
+
+
+.section-box {
+    padding: 110px;
+}
+
+.section-top {
+    margin-bottom: 30px;
+}
+
+.section-top hr {
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: #e74c3c;
+    border: none;
+}
+
+
+
+
+
+
+/*--------
+# NAVİGATİON
+------------*/
+.navbar-brand {
+    transition: all .3s;
+}
+
+#mainNav {
+    background-color: transparent;
+}
+
+.navbar-brand:hover {
+    color: #e74c3c !important;
+}
+
+nav.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    fon-size: 14px;
+    font-weight: 400;
+    padding: 12px 10px;
+    letter-spacing: 1px;
+    color: white;
+    transition: all .3s;
+
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color:#e74c3c
+}
+
+
+nav.shrink {
+    padding: 0;
+    background-color: #e74c3c !important;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #e74c3c;
+}
+
+
+
+nav.shrink .navbar-nav .nav-item .nav-link:hover,
+nav.shrink .navbar-brand:hover {
+    color:black !important;
+
+
+}
+
+.navbar-brand.shrink,
+.navbar-container.shrink,
+.navbar.fixed-top.shrink,
+navbar-brand,
+.navbar-container {
+    transition: 0.6s;
+}
+
+
+
+/*--------
+# HERO SECTİON
+------------*/
+
+#hero {
+    text-align: center;
+    color: white;
+    background: linear-gradient( rgba(20, 20, 20, .3), rgba(20, 20,20, .3)),
+    url("../img/backgmain.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#hero .container {
+    display: table;
+    height: 100vh;
+}
+
+#hero .intro-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#hero .intro-heading {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+#hero .intro-heading span {
+    color:#e74c3c;
+    font-size: 62px;
+}
+
+
+.btn-main {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1x;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #e74c3c;
+    transition: all .3s;
+
+}
+
+.btn-main:hover {
+    background: #e74c3c;
+    border: 2px solid #e74c3c;
+    color: #fff;
+
+
+}
+
+/*----------------------------
+# WHO WE ARE SECTİON 1. ve 2. who çalışmıyr. çerçeve olmadı.
+-----------------------------*/
+
+#whoweare {
+    background-color: #f2f2f2;
+
+}
+
+.whoweare-item {
+    padding: 60px 30px;
+    box-shadow: 0 0 10 px rgba (0, 0, 0, .5);
+}
+.whoweare-item i {
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #e74c3c;
+}
+
+.whoweare-item hr {
+    width: 45px;
+    height: 2px;
+    background-color: #e74c3c;
+    border: none;
+    margin: 0 auto;
+}
+
+.whoweare-item p {
+    margin-top: 20px;
+
+}
+.whoweare-item:hover {
+    background-color: #e74c3c;
+    cursor: pointer;
+
+}
+.whoweare-item:hover i,
+.whoweare-item:hover h3,
+.whoweare-item:hover p {
+    color:#fff
+}
+.whoweare-item:hover hr {
+    background-color: #fff;
+    width: 75px;
+}
+
+.whoweare-item:hover i {
+    transform: translateY(-20px);
+}
+
+.whoweare-item,
+.whoweare-item i,
+.whoweare-item hr {
+    transition: all .4s ease-in-out;
+}
+
+
+/*--------
+# Statement Section
+------------*/
+
+#statement {
+    background: linear-gradient( rgba(20, 20, 20, .3), rgba(20, 20,20, .3)),
+    url("../img/about2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#statement h4 {
+    color: #fff;
+}
+
+
+
+/*------------------------
+# LATEST Projects Section
+-----------------------*/
+
+#latestprojects {
+    background-color: #f2f2f2;
+}
+
+#latestprojects .project-text {
+    padding: 30px;
+}
+
+#latestprojects .project-text hr {
+    border-color: #fff;
+    border-width: 2px;
+    width: 25%;
+    transition: all .4s;
+
+}
+
+#latestprojects .project-text:hover {
+    width: 50%;
+
+}
+
+.bg-orange {
+    background-color:#B85C38;
+}
+
+.btn-white {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition = all .4s;
+
+}
+
+
+.btn-white:hover {
+    background: #fff;
+    color: #e74c3c;
+    border: 1px solid #fff
+}
+
+/*------------------------
+# FOOTER Section
+-----------------------*/
+
+footer {
+    background-color: #51050F;
+    padding: 20px 0 10px;
+    font-size: 14px;
+}
+footer p {
+    margin :0;
+}
+
+/*------------------------
+# İnside hero ABOUT Section
+-----------------------*/
+
+.page-image {
+    display: table;
+    width: 100%;
+}
+
+.page-image-about {
+    background: linear-gradient( rgba(20, 20, 20, .3), rgba(20, 20,20, .3)),
+    url("../img/süper9.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.page-title {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+
+/*------------------------
+# ABOUT Us Section
+-----------------------*/
+
+#aboutus {
+    background-color: #f2f2f2;
+}
+
+#aboutus .project-text {
+    padding: 30px;
+}
+
+/*------------------------
+# ABOUT Team Section
+-----------------------*/
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.team-member img {
+    width: 225px;
+    height: 225px;
+    border:7 px solid #fff
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+.team-member p {
+    margin-top: 0;
+
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    color: #fff;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
+    transition: all .4s;
+}
+ul.social-buttons li a:hover {
+    background-color: #e74c3c;
+}
+
+
+/*------------------------
+# Portfolio Team Section
+-----------------------*/
+
+
+.page-image-portfolio {
+    background: linear-gradient( rgba(20, 20, 20, .3), rgba(20, 20,20, .3)),
+    url("../img/tree.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+.portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: auto;
+    cursor: pointer;
+}
+.portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgb(231,76,60, 0.6);
+    transition: all .4s;
+} 
+
+.portfolio-hover:hover {
+    opacity: 1;
+}
+
+.portfolio-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+}
+
+.portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+.portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+
+}
+.portfolio-caption h4 {
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.portfolio-caption p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+}
+
+
+/*------------------------
+# Contact US Section
+-----------------------*/
+
+
+.page-image-contact {
+    background: linear-gradient( rgba(20, 20, 20, .3), rgba(20, 20,20, .3)),
+    url("../img/think2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.form-group {
+    margin-bottom:25px;
+}
+.form-group input,
+.form-group textarea {
+    padding: 20px;
+}
+
+.form-group input.form-control {
+    height: auto;
+}
+
+.form-group textarea.form-control {
+    height: 248px;
+}
+
+.form-control:focus {
+    border-color: #e74c3c;
+    box-shadow: none;
+}
+
+.btn-contact {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.btn-contact:hover {
+   background-color: #fff;
+   color: #e74c3c;
+}
